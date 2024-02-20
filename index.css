@@ -1,0 +1,129 @@
+.wrap{
+  width: 100%;
+}
+.toDolistBox{
+  padding: 0 50px;
+  width: 800px;
+  margin: 0 auto;
+  margin-top: 30px;
+  text-align: center;
+  background-color:rgb(253, 248, 240);
+  border-radius: 20px;
+  border: 6px solid rgb(253, 248, 240);
+  box-shadow: inset 1px 1px 1px 3px rgba(61, 61, 61, 0.027);
+}
+.toDolist{
+  position: relative;
+  width: 100%;
+}
+.listBox{
+  width: 50%;
+  height: 55vh;
+  margin-bottom: 50px;
+}
+.title{
+  font-size: 56px;
+  font-weight: bold;
+  text-align: center;
+}
+.toDoInput{
+  width: 600px;
+  height: 50px;
+  margin-bottom: 10px;
+  font-size: 28px;
+  border: none;
+  outline: none;
+}
+.toDoInputLabel{
+  position: absolute;
+  top: 21px;
+  font-size: 28px;
+  width: 605px;
+  height: 47px;
+  text-align:left; 
+  color: rgb(156, 156, 156);
+  border-bottom: 1px solid rgb(156, 156, 156);
+}
+.active{
+  color:  rgb(167, 187, 255);
+  border-bottom: 3px solid rgb(167, 187, 255);
+  height: 87px;
+  font-size: 22px;
+  transform: translateY(-40px);
+  transition: 0.5s;
+}
+
+li{
+  padding: 10px 25px;
+  width: 655px;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  font-size: 22px;
+  font-weight: 500;
+
+}
+.title{
+  margin: 50px auto;
+  width: 300px;
+  cursor: pointer;
+}
+
+.textOn{
+  font-weight: bold;
+  font-size: 30px;
+}
+.addBtn{
+  background: none;
+  border: none;
+  transform: translateY(15px);
+}
+.addBtn>img{
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.checkBox{
+  position: absolute;
+  width: 23px;
+  height: 23px;
+  transform: translate(4px,5px);
+  border: 3px solid white;
+  background-color: black;
+  border-radius: 50px;
+}
+
+.checkBoxImg{
+  position: relative;
+  width: 60px;
+  height: 30px;
+  border-radius: 50px;
+  background-image: url(./img/checkbox.png);
+  background-size: cover;
+  border: 4px solid rgb(156, 156, 156);
+  box-shadow: inset 0.5px 0.5px 2px 0.5px rgba(27, 27, 27, 0.596);
+}
+.delBtn{
+  
+  width: 35px;
+  height: 35px;
+  background-image: url(./img/del.png);
+  background-size: cover;
+}
+.check{
+  transform: translate(34px,5px);
+  transition: 0.5s;
+}
+.checkR{
+  transform: translate(4px,5px);
+  transition: 0.5s;
+}
+
+@media screen and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width: 479px) {
+
+}
