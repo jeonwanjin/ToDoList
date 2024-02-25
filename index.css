@@ -180,7 +180,7 @@ li{
   .checkBox{
     width: 16px;
     height: 16px;
-    transform: translate(2px,2px) !important;
+    transform: translate(2px,4px) !important;
     border: 2px solid white;
     background-color: black;
     border-radius: 50px;
